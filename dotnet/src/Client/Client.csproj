@@ -13,9 +13,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Server\Server.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Protobuf Include="../../../golang/echo/proto/echo.proto" GrpcServices="Client" Link="Protos/echo.proto" />
   </ItemGroup>
 </Project>
